@@ -13,6 +13,10 @@
       <recent-talks/>
     </main>
 
+    <aside class="py-24 px-4 bg-gray-50">
+      <our-sponsors/>
+    </aside>
+
     <footer class="py-20 bg-black">
       <div class="max-w-6xl mx-auto">
         <div class="grid grid-cols-3">
@@ -33,6 +37,7 @@
 
 <script>
 import Navbar from '@/components/navbar'
+import OurSponsors from '@/components/our-sponsors'
 import RecentTalks from '@/components/recent-talks'
 
 export default {
@@ -40,6 +45,7 @@ export default {
 
   components: {
     Navbar,
+    OurSponsors,
     RecentTalks
   },
 
