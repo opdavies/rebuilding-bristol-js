@@ -4,7 +4,7 @@
 
     <div class="mt-10">
       <div class="max-w-6xl mx-auto px-4">
-        <div class="grid grid-cols-3 gap-16">
+        <div class="grid grid-cols-1 gap-16 sm:grid-cols-2 md:grid-cols-3">
           <div v-for="(sponsor, i) in sponsors" :key="i">
             <sponsor :sponsor="sponsor"/>
           </div>
