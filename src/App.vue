@@ -8,17 +8,23 @@
         <p class="mt-5 text-sm">{{ description }}</p>
       </div>
     </div>
+
+    <main>
+      <recent-talks/>
+    </main>
   </div>
 </template>
 
 <script>
 import Navbar from '@/components/navbar'
+import RecentTalks from '@/components/recent-talks'
 
 export default {
   name: 'App',
 
   components: {
-    Navbar
+    Navbar,
+    RecentTalks
   },
 
   data() {
