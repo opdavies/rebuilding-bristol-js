@@ -1,13 +1,18 @@
 <template>
   <div id="app" class="text-black">
-    {{ title }}
+    <navbar :name="title" />
   </div>
 </template>
 
 <script>
+import Navbar from '@/components/navbar'
 
 export default {
   name: 'App',
+
+  components: {
+    Navbar
+  },
 
   data() {
     return {
