@@ -12,6 +12,22 @@
     <main>
       <recent-talks/>
     </main>
+
+    <footer class="py-20 bg-black">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-3">
+          <section>
+            <h2 class="pb-2 text-xl font-bold border-b-2 text-white">Links</h2>
+
+            <div class="mt-6 space-x-1">
+              <a href="#" class="btn btn-blue">Meetup</a>
+              <a href="#" class="btn btn-blue">Twitter</a>
+              <a href="#" class="btn btn-blue">YouTube</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
