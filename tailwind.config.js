@@ -1,8 +1,11 @@
 module.exports = {
-  purge: [
-    'public/index.html',
-    'src/**/*.vue'
-  ],
+  purge: {
+    mode: 'layers',
+    content: [
+      'public/index.html',
+      'src/**/*.vue'
+    ]
+  },
   theme: {
     colors: {
       black: '#222',
@@ -23,5 +26,8 @@ module.exports = {
   plugins: [],
   experimental: {
     applyComplexClasses: true
+  },
+  future: {
+    purgeLayersByDefault: true
   }
 }
