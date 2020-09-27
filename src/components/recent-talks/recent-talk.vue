@@ -4,10 +4,11 @@
       {{ talk.title }}
     </div>
 
-    <div class="embed-responsive">
-      <div class="embed-responsive-item">
-        <iframe :src="`https://www.youtube.com/embed/${talk.videoId}`"/>
-      </div>
+    <div class="block relative h-0 overflow-hidden aspect-ratio-16/9">
+      <iframe
+        class="absolute w-full h-full inset-0 border-0"
+        :src="`https://www.youtube.com/embed/${talk.videoId}`"
+      />
     </div>
   </div>
 </template>

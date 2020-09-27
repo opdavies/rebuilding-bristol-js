@@ -12,16 +12,4 @@
     @apply transition-colors ease-in-out duration-300;
     @apply hover:bg-blue-550
   }
-
-  .embed-responsive {
-    @apply block relative h-0 overflow-hidden aspect-ratio-16/9
-  }
-
-  .embed-responsive .embed-responsive-item,
-  .embed-responsive iframe,
-  .embed-responsive embed,
-  .embed-responsive object,
-  .embed-responsive video {
-    @apply absolute w-full h-full inset-0 border-0
-  }
 }
