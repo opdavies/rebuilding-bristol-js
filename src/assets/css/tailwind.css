@@ -14,8 +14,7 @@
   }
 
   .embed-responsive {
-    @apply block relative h-0 p-0 overflow-hidden;
-    padding-bottom: 56.25%
+    @apply block relative h-0 overflow-hidden aspect-ratio-16/9
   }
 
   .embed-responsive .embed-responsive-item,

@@ -7,6 +7,9 @@ module.exports = {
     ]
   },
   theme: {
+    aspectRatio: {
+      '16/9': [16, 9]
+    },
     colors: {
       black: '#222',
       gray: {
@@ -23,7 +26,9 @@ module.exports = {
     extend: {},
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('tailwindcss-aspect-ratio')
+  ],
   experimental: {
     applyComplexClasses: true
   },
