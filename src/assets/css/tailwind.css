@@ -12,4 +12,8 @@
     @apply transition-colors ease-in-out duration-300;
     @apply hover:bg-blue-550
   }
+
+  .link {
+    @apply text-blue-500 hover:text-blue-600
+  }
 }

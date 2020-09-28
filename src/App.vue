@@ -60,6 +60,12 @@
           </div>
         </div>
       </div>
+
+      <div class="max-w-6xl mx-auto pt-12 pb-24">
+        <div class="grid gap-6 md:grid-cols-2">
+          <frequently-asked/>
+        </div>
+      </div>
     </main>
 
     <aside class="py-24 px-4 bg-gray-50">
@@ -85,6 +91,7 @@
 </template>
 
 <script>
+import FrequentlyAsked from '@/components/frequently-asked'
 import Navbar from '@/components/navbar'
 import OurSponsors from '@/components/our-sponsors'
 import RecentTalks from '@/components/recent-talks'
@@ -93,6 +100,7 @@ export default {
   name: 'App',
 
   components: {
+    FrequentlyAsked,
     Navbar,
     OurSponsors,
     RecentTalks
