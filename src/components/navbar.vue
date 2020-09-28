@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto py-6 px-4">
         <div class="flex justify-between">
           <div class="w-1/2 flex items-center">
-            <a class="text-white font-black" href="#" v-text="name"></a>
+            <a class="text-lg text-white font-black" href="#" v-text="name"></a>
           </div>
 
           <div class="w-1/2 flex justify-end md:hidden">

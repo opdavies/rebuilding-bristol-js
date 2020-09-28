@@ -5,7 +5,7 @@
     <div class="h-48 flex items-center justify-center bg-yellow">
       <div class="p-4 text-center">
         <h1 class="text-4xl leading-none font-bold">{{ title }}</h1>
-        <p class="mt-5 text-sm">{{ description }}</p>
+        <p class="mt-6 text-sm">{{ description }}</p>
       </div>
     </div>
 
