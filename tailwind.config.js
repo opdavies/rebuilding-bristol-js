@@ -23,6 +23,10 @@ module.exports = {
       white: '#fff',
       yellow: '#fde546'
     },
+    fontFamily: {
+      display: ['Raleway'],
+      body: ['Lato']
+    },
     extend: {},
   },
   variants: {},

@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="text-black">
+  <div id="app" class="font-display text-black">
     <navbar :name="title" />
 
     <div class="h-48 flex items-center justify-center bg-yellow">
@@ -21,7 +21,7 @@
             <div class="space-y-2">
               <h2 class="text-lg font-bold text-center">About</h2>
 
-              <p class="text-sm leading-relaxed">Since May 2012 we've held monthly JavaScript talks. Today the group is over 800 members strong and has a great friendly community that we've been proud to see grow.</p>
+              <p class="font-body text-center text-sm leading-relaxed">Since May 2012 we've held monthly JavaScript talks. Today the group is over 800 members strong and has a great friendly community that we've been proud to see grow.</p>
             </div>
 
             <div>
@@ -36,7 +36,7 @@
             <div class="space-y-2">
               <h2 class="text-lg font-bold text-center">Format</h2>
 
-              <p class="text-sm leading-relaxed">Talk nights are usually held on the last Wednesday of every month. They usual consist of two main talks and occasionally lightning talks that can be on any topic.</p>
+              <p class="font-body text-center text-sm leading-relaxed">Talk nights are usually held on the last Wednesday of every month. They usual consist of two main talks and occasionally lightning talks that can be on any topic.</p>
             </div>
 
             <div>
@@ -51,7 +51,7 @@
             <div class="space-y-2">
               <h2 class="text-lg font-bold text-center">Fancy speaking?</h2>
 
-              <p class="text-sm leading-relaxed">Bristol JS is only as strong as it's speakers so we're always on the lookout for great talks. Drop us an <a href="#0">e-mail</a> with an outline of your talk as well as your availability, if it's right for us we'll get you booked in.</p>
+              <p class="font-body text-center text-sm leading-relaxed">Bristol JS is only as strong as it's speakers so we're always on the lookout for great talks. Drop us an <a href="#0">e-mail</a> with an outline of your talk as well as your availability, if it's right for us we'll get you booked in.</p>
             </div>
 
             <div>
